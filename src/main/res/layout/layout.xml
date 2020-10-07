@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvappname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="Unit And Measurements-II"
+            android:layout_gravity="left"
+            android:textColor="#212121"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tvquestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="25 Question"
+                android:layout_gravity="left"
+                android:textColor="#212121"
+                android:textSize="10dp"/>
+
+
+            <TextView
+                android:id="@+id/tvmarks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="100 Marks"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="left"
+                android:textColor="#212121"
+                android:textSize="10dp"/>
+
+
+
+            <TextView
+                android:id="@+id/tvtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="60 Min"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="left"
+                android:textColor="#212121"
+                android:textSize="10dp"/>
+
+            <ImageView
+                android:id="@+id/lockimg"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:layout_marginLeft="160dp"
+                android:src="@drawable/ic_baseline_lock_open_24"/>
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tvstarton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Starts On"
+                android:layout_gravity="left"
+                android:textColor="#212121"
+                android:textSize="10dp"/>
+
+
+            <TextView
+                android:id="@+id/tvdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Jun 21st 2020"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="left"
+                android:textColor="#212121"
+                android:textSize="10dp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
